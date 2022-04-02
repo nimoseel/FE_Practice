@@ -1,0 +1,58 @@
+body,ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.title {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+/* css */
+.wrapper {
+  background-color: rgb(239, 239, 239);
+  width: 450px;
+  margin: 100px auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px 1px gray;
+}
+
+.header {
+  padding: 20px 0;
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #FF1F8F;
+  border-left: 5px solid #FF1F8F;
+  padding-left: 30px;
+}
+
+.list {
+  overflow:hidden;
+}
+
+.list li {
+  background-color: white;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.list li:hover {
+  border: 2px solid #FF1F8F;
+}
