@@ -1,0 +1,81 @@
+input, button, ul{
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    width: 300px;
+    margin: 120px auto;
+    
+}
+
+.soming{
+    width: 100px;
+    height: 100px;
+}
+
+.login input, .wrap_btn button{
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 13px;
+    text-align: center;
+    color:grey
+} 
+
+.wrap_btn button{
+    background-color: #ddd;
+    
+}
+
+.login input{
+    margin-bottom: 7px;
+}
+
+.login{
+    margin-bottom: 22px;
+}
+
+.line_or{
+    font-size: 12px;
+    color:#ddd;
+}
+
+.line_or:before, .line_or:after {
+    display: inline-block;
+    width: 139px;
+    height: 0.7px;
+    margin: 6px 0;
+    background-color: #ddd;
+    vertical-align: middle;
+    content: '';
+}
+
+.login_help li{
+    display: inline;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.login_help li a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.find_id{
+    margin-right: 5px;
+}
+
+.find_id::after{
+    padding-left: 5px;
+    content:"|"
+}
+
+ul.login_help{
+    text-align: center;
+}
+
+.wrap_btn span.line_or{
+    margin:11px 0;
+}
