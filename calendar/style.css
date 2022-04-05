@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+*{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.calendar22{
+    width: 700px;
+    margin:0 auto;
+}
+
+.calendar22 .year{
+    font-size: 80px;
+    font-weight: bold;
+    color:orangered;
+    margin: 50px auto 0;
+}
+
+.apr, .may, .jun, .jul{
+    margin: 40px;
+}
+.month table caption {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.month td:first-child, .month th:first-child, .hol{
+    color: red;
+}
+
+.month td:nth-child(7), .month th:nth-child(7){
+    color:rgb(25, 84, 233);
+}
