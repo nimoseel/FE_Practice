@@ -21,7 +21,8 @@ input, button, ul{
     border: 1px solid #ddd;
     border-radius: 13px;
     text-align: center;
-    color:grey
+    color:grey;
+    box-sizing :border-box;
 } 
 
 .wrap_btn button{
