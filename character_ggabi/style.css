@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: white;
+}
+
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D0ECE7;
+}
+
+.ggabi {
+    position: relative;
+    top: 100px;
+    margin: 50px auto;
+    width: 400px;
+    height: 460px;
+}
+
+/* design */
+/* ear design */
+.ggabi .ear {
+    position: absolute;
+    top: 35px;
+    width: 70px;
+    height: 120px;
+    border:7px solid #000;
+    background-color: var(--main-color);
+}
+
+.ggabi .ear.left {
+    left: 100px;
+    transform: rotate(-10deg);
+    border-radius: 67% 33% 0 0;
+}
+
+.ggabi .ear.right {
+    right: 100px;
+    transform: rotate(10deg);
+    border-radius: 33% 67% 0 0;
+}
+
+.ggabi .earline{
+    position: absolute;
+    top: 30px;
+    width: 35px;
+    height: 90px;
+    background-color: rgba(253, 195, 192, 0.985);
+    border: 7px solid #000;
+    border-radius: 40%;
+
+}
+
+.ggabi .earline.left {
+    left: 10px;
+    border-radius: 67% 33% 0 0;
+}
+
+.ggabi .earline.right {
+    right: 10px;
+    border-radius: 33% 67% 0 0;
+}
+
+/* face design */
+.ggabi .face {
+    position: absolute;
+    top: 97px;
+    left: 92px;
+    width: 215px;
+    height: 200px;
+    border-radius: 35% 35% 49% 49%;
+    border: 7px solid #000;
+    background-color: var(--main-color);
+}
+
+.eye.left {
+    position: absolute;
+    top: 65px;
+    width: 15px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #000;
+    left: 70px;
+}
+
+.winkTop {
+    position: absolute;
+    top: 66px;
+    right: 62px;
+    width: 26px;
+    height:5px;
+    background-color: black;
+    transform: rotate(-26deg);
+}
+
+.winkBottom{
+    position: absolute;
+    top: 77px;
+    right: 62px;
+    width: 23px;
+    height:5px;
+    background-color: black;
+    transform: rotate(25deg);
+}
+
+.nose {
+    position: absolute;
+    top: 90px;
+    left: 82px;
+    width: 25px;
+    height: 20px;
+    border-radius: 30% 30% 50% 50%;
+    background: black;
+}
+
+.lip {
+    position: absolute;
+    top:115px;
+    left:90px;
+    width: 29px;
+    height: 7px;
+    border-radius: 0% 0% 100% 100%;
+    background-color: black;
+    transform: rotate(-20deg);
+}
+
+.tongue {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 23px;
+    height:28px;
+    background-color: IndianRed;
+    border: 7px solid IndianRed;
+    border-radius: 0% 0% 100% 100%;
+}
+
+/* legs design */
+.ggabi .leg {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    background-color: var(--main-color);
+    border: 7px solid black;
+    border-bottom: 1px solid var(--main-color);
+    border-radius: 50px 50px 0 0;
+}
+
+.leg.left{
+    top: 180px;
+    left: 95px;
+    transform: rotate(50deg);
+}
+
+.leg.right{
+    top: 200px;
+    right: 100px;
+    transform: rotate(-20deg);
+}
+
+.leg .foot {
+    position: absolute;
+    top: 27px;
+    left: 10px;
+    width: 37px;
+    height: 33px;
+    background-color: black;
+    border: 7px solid black;
+    border-radius: 50%;
+}
+
+.leg .paw {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: 7px solid black;
+    border-radius: 50%;
+}
+
+.paw.first {
+    top: 15px;
+    left:5px;
+}
+
+.paw.second{
+    top: 10px;
+    left:21px;
+}
+
+.paw.third{
+    top: 15px;
+    left: 37px;
+}
